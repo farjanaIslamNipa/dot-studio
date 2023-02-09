@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Tailwind CSS cdn -->
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Dot Studio | Home</title>
+</head>
+
+<body>
+    <nav class="flex flex-wrap items-center justify-between w-full py-4 md:py-3 xl:px-24 lg:px-6 px-4 text-lg text-gray-700 bg-white">
+        <div>
+            <a href="#">
+                <img src="./assets/Logo.png" alt="Dot Studio Logo" height="44px">
+            </a>
+        </div>
+
+        <svg xmlns="http://www.w3.org/2000/svg" id="menu-button" class="h-6 w-6 cursor-pointer md:hidden block"
+            fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+
+        <div class="hidden w-full md:flex md:items-center md:w-auto" id="menu">
+            <ul class="pt-4 text-base text-gray-700 md:flex md:justify-between md:pt-0 nav-item">
+                <li>
+                    <a class="md:p-4 py-2 block hover:text-purple-400 active" href="#">Home</a>
+                </li>
+                <li>
+                    <a class="md:p-4 py-2 block hover:text-purple-400" href="#">Services</a>
+                </li>
+                <li>
+                    <a class="md:p-4 py-2 block hover:text-purple-400" href="#">Portfolio</a>
+                </li>
+                <li>
+                    <a class="md:p-4 py-2 block hover:text-purple-400" href="#">Blog</a>
+                </li>
+                <li>
+                    <a class="md:p-4 py-2 block hover:text-purple-400" href="#">About us</a>
+                </li>
+                <li class="xl:ml-4 ml-2 ml-0 mt-2">
+                    <a class="md:block inline-block contact-us-link-btn" href="#">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header>
+        <div class="px-24 bg-light pt-16">
+            <div class="grid grid-cols-12">
+                <div class="col-span-6">
+                    <div>
+                        <div class="space-y-5">
+                            <h1 class="font-amita text-5xl leading-none">We are Creative</h1>
+                            <h1 class="brand-red font-trirong font-bold text-5xl leading-none">Digital Agency</h1>
+                            <h1 class="font-trirong font-bold text-5xl leading-none">With best services</h1>
+                            <p class="text-xl font-semibold">Your <span class="brand-red">vision</span>, our <span class="brand-blue">responsibility</span> to make that vision real</p>
+                            <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas egestas non diam egestas enim neque odio ut natoque. Ligula duis dui id aenean eget.</p>
+                        </div>
+                        <div class="m-10">
+                            <div class="flex items-center">
+                                <div><a href="#" class="bg-brand-red text-white py-3 px-6 border-brand rounded-full hover:bg-white rounded-fill-btn">Start your project</a></div>
+                                <div class="ml-4"><a href="#" class="border-brand brand-red py-3 px-6 border-brand rounded-full hover:bg-white rounded-outline-btn">See our portfolio</a></div>
+                            </div>
+                        </div>
+                        <div class="">
+                            <img src="./assets/icon-1.png" alt="Dot Studio">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-span-6">
+                    <div>
+                        <img src="./assets/header-banner.png" alt="Header Banner">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="px-24 bg-white my-12">
+            <!-- Trusted customer logo section -->
+            <section class="bg-light py-3 px-2 rounded-lg">
+                <p class="text-gray-600 mb-2 pl-3">Our trusted customer</p>
+                <div class="flex items-center justify-between gap-5 px-4">
+                    <div>
+                        <img src="./assets/shopify-logo.png" class="h-8" alt="Shopify Logo">
+                    </div>
+                    <div>
+                        <img src="./assets/wbflow.png" class="h-8" alt="Webflow Logo">
+                    </div>
+                    <div>
+                        <img src="./assets/priterest.png" class="h-8" alt="Pinterest Logo">
+                    </div>
+                    <div>
+                        <img src="./assets/stripe.png" class="h-8" alt="Stripe Logo">
+                    </div>
+                    <div>
+                        <img src="./assets/reddit.png" class="h-8" alt="Stripe Logo">
+                    </div>
+                </div>
+            </section>
+
+            <!-- Services Section -->
+            <section class="mt-12 ">
+                <div class="text-center mb-10">
+                    <h1 class="text-2xl font-bold font-trirong bg-light py-2 px-4 inline-block"><span class="brand-red">Services</span> we are providing</h1>
+                </div>
+
+                <div class="grid grid-cols-12 gap-4">
+                        <div class="lg:col-span-4 md:col-span-6 col-span-12">
+                            <div class="bg-light rounded-lg p-5">
+                                <div class="flex items-center justify-center">
+                                    <img src="./assets/services-img-3.png" alt="Our Services">
+                                </div>
+                                <h3 class="font-semibold text-xl mb-3">UI/UX & Branding Design</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla senectus tristique leo, fermentum interdum quis. Libero, nunc, facilisis suspendisse arcu morbi etiam tempor viverra turpis. Volutpat est tristique maecenas dignissim ultricies sit suspendisse. Et nunc et vitae nam pharetra, amet pellentesque nibh arcu.</p>
+                                <div class="mt-5">
+                                    <a href="#" class="text-blue-500 bg-white rounded-full inline-block px-8 py-2">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lg:col-span-4 md:col-span-6 col-span-12">
+                            <div class="service-card-2 rounded-lg p-5">
+                                <div class="flex items-center justify-center">
+                                    <img src="./assets/services-img-2.png" alt="Our Services">
+                                </div>
+                                <h3 class="font-semibold text-xl mb-3">Development</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla senectus tristique leo, fermentum interdum quis. Libero, nunc, facilisis suspendisse arcu morbi etiam tempor viverra turpis. Volutpat est tristique maecenas dignissim ultricies sit suspendisse. Et nunc et vitae nam pharetra, amet pellentesque nibh arcu.</p>
+                                <div class="mt-5">
+                                    <a href="#" class="text-blue-500 bg-white rounded-full inline-block px-8 py-2">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lg:col-span-4 md:col-span-6 col-span-12">
+                            <div class="service-card-3 rounded-lg p-5">
+                                <div class="flex items-center justify-center">
+                                    <img src="./assets/services-img-3.png" alt="Our Services">
+                                </div>
+                                <h3 class="font-semibold text-xl mb-3">Development</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla senectus tristique leo, fermentum interdum quis. Libero, nunc, facilisis suspendisse arcu morbi etiam tempor viverra turpis. Volutpat est tristique maecenas dignissim ultricies sit suspendisse. Et nunc et vitae nam pharetra, amet pellentesque nibh arcu.</p>
+                                <div class="mt-5">
+                                    <a href="#" class="text-blue-500 bg-white rounded-full inline-block px-8 py-2">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </section>
+
+            <section class="mt-10">
+                <div class="bg-red-100 rounded-2xl py-4 px-8">
+                    <div class="flex flex-wrap justify-between items-center gap-5">
+                        <div class="text-center">
+                            <p class="font-semibold text-4xl leading-none mb-3">60+</p>
+                            <p>Happy clients</p>
+                        </div>
+                        <div class="text-center">
+                            <p class="font-semibold text-4xl leading-none mb-3">300+</p>
+                            <p>Successful projects</p>
+                        </div>
+                        <div class="text-center">
+                            <p class="font-semibold text-4xl leading-none mb-3">15+</p>
+                            <p>Award achivements</p>
+                        </div>
+                        <div class="text-center">
+                            <p class="font-semibold text-4xl leading-none mb-3">70+</p>
+                            <p>Expert team members</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script src="/script.js"></script>
+</body>
+
+</html>

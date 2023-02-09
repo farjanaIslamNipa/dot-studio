@@ -1,0 +1,103 @@
+/* importing Google font */
+@import url('https://fonts.googleapis.com/css2?family=Amita&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Trirong:wght@500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    --brandRed:  #FD695B;
+    --brandBlue:   #446DFC;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.bg-brand-red{
+    background-color: var(--brandRed);
+}
+
+.border-brand{
+    border: 1px solid var(--brandRed);
+}
+
+.brand-red{
+    color: var(--brandRed);
+}
+.brand-blue{
+    color: var(--brandBlue);
+}
+.bg-light{
+    background-color: #F2F5FF;
+}
+.font-amita{
+    font-family: 'Amita', cursive;
+}
+.font-trirong{
+    font-family: 'Trirong', serif;
+}
+
+/* navbar css */
+.contact-us-link-btn{
+    background-color: var(--brandRed);
+    color: white;
+    border: 1px solid var(--brandRed);
+    padding: 8px 40px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+.contact-us-link-btn:hover{
+    background-color: white;
+    color: var(--brandRed);
+    border: 1px solid var(--brandRed);
+    padding: 8px 40px;
+    border-radius: 30px;
+}
+.nav-item li a:hover {
+    transition: all 0.3s ease;
+    color: var(--brandRed);
+}
+.nav-item li a.active {
+    transition: all 0.3s ease;
+    color: var(--brandRed);
+    border-bottom: 2px solid var(--brandRed);
+}
+
+/* Header section css */
+.rounded-fill-btn{
+    box-shadow: rgba(253, 105, 91, 0.45) 0px 25px 20px -20px !important;
+}
+.rounded-fill-btn:hover{
+    color: var(--brandRed);
+    transition: all 0.3s ease;
+}
+.rounded-outline-btn:hover{
+    background-color: var(--brandRed);
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.service-card-2{
+    background-color: #FFE9E7;
+}
+.service-card-2{
+    background-color: #FFF4DB;
+}
+
+
+/* Responsive css */
+@media(max-width: 1024px){
+    .contact-us-link-btn{
+        padding: 8px 20px;
+    }
+}
+@media(max-width: 991px){
+    .contact-us-link-btn{
+        padding: 8px 10px;
+    }
+}
